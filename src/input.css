@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.porfolioD {
+  @apply translate-y-0 transition-transform duration-[1s];
+}
+
+.portfolio:hover .porfolioD {
+  @apply -translate-y-20;
+    @apply opacity-100
+}

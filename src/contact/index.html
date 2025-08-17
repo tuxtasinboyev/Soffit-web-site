@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+<body class="scroll-smooth bg-[#1C1C1E] text-white">
+        <div class=" hidden fixed inset-0 bg-black opacity-80 z-1000 flex-col gap-y-15 " id="modal">
+        <ul
+            class="flex flex-col gap-6  mt-45 bg-white p-15 w-[400px] absolute right-[40%] text-center rounded-4xl opacity-30 max-[772px]:right-[20%]  max-[772px]:top-20 max-[545px]:right-0 max-[545px]:top-10 ">
+            <li><img src="../img/Vector(1).png" alt="" class=" w-[50px] absolute right-10 top-10 " id="close"></li>
+            <li><a href="../index.html" class=" text-black hover:text-orange-500 text-3xl font-bold">Home</a></li>
+            <li><a href="../Service/index.html" class=" text-black hover:text-orange-500 text-3xl font-bold">Servcies</a>
+            </li>
+            <li><a href="../portfolio/index.html"
+                    class=" text-black hover:text-orange-500 text-3xl font-bold">Portfolio</a></li>
+            <li><a href=".index.html" class=" text-black hover:text-orange-500 text-3xl font-bold">Contact
+                    me</a></li>
+            <li><a href="../about us/index.html" class=" text-black hover:text-orange-500 text-3xl font-bold">About
+                    Us</a></li>
+        </ul>
+    </div>
+    <nav class="flex items-center justify-between py-6 px-4 sm:px-10 max-w-[1980px] mx-auto">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo" class="w-[71px] sm:w-[106px]">
+        </a>
+        <ul class="hidden md:flex gap-10 items-center">
+            <li><a href="../index.html" class=" text-gray-400 hover:text-orange-500">Home</a></li>
+            <li><a href="../Service/index.html" class="text-gray-400 hover:text-orange-500">Services</a></li>
+            <li><a href="../portfolio/index.html" class="text-gray-400 hover:text-orange-500">Portfolio</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-orange-500">Contact me</a></li>
+            <li><a href="../about us/index.html" class="text-gray-400 hover:text-orange-500">About Us</a></li>
+            <li>
+                <button class="w-[100px] h-[40px] rounded-2xl border-2 border-white px-3">
+                    <ul class="flex gap-2 justify-center">
+                        <li class="text-gray-400 hover:text-orange-500">Uz</li>
+                        <li class="text-gray-400 hover:text-orange-500">Ru</li>
+                        <li class="text-white hover:text-orange-500">En</li>
+                    </ul>
+                </button>
+            </li>
+        </ul>
+        <img src="../img/Frame(2).png" alt="Menu" class="block md:hidden w-6 h-6" id="menu">
+    </nav>
+
+    <hr class="border-gray-600 max-w-[1980px] mx-auto">
+
+    <section class="flex flex-col lg:flex-row gap-10 px-4 sm:px-10 py-10 max-w-[1980px] mx-auto">
+
+        <div class="w-full lg:w-1/2 p-6 bg-gradient-to-br from-black to-gray-900 rounded-2xl shadow-lg">
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block mb-1">Ism Familiya</label>
+                        <input type="text" placeholder="Ismingizni kiriting"
+                            class="w-full px-4 py-2 bg-transparent border rounded-full focus:outline-none" />
+                    </div>
+                    <div>
+                        <label class="block mb-1">Companiyani kiriting</label>
+                        <input type="text" placeholder="Companiya"
+                            class="w-full px-4 py-2 bg-transparent border rounded-full focus:outline-none" />
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block mb-1">Telegram username</label>
+                        <input type="text" placeholder="Username"
+                            class="w-full px-4 py-2 bg-transparent border rounded-full focus:outline-none" />
+                    </div>
+                    <div>
+                        <label class="block mb-1">Phone number</label>
+                        <input type="text" placeholder="+998 99"
+                            class="w-full px-4 py-2 bg-transparent border rounded-full focus:outline-none" />
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block mb-1">Sayt turini tanlang</label>
+                        <select
+                            class="w-full px-4 py-2 bg-black border rounded-full focus:outline-none appearance-none">
+                            <option>Corporative sayt</option>
+                            <option>Landing Page</option>
+                            <option>E-commerce</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block mb-1">Sizga bo'g'lanish usulini tanlang</label>
+                        <select
+                            class="w-full px-4 py-2 bg-black border rounded-full focus:outline-none appearance-none">
+                            <option>Telegram</option>
+                            <option>Phone</option>
+                            <option>Email</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block mb-1">Message</label>
+                    <textarea rows="5" class="w-full px-4 py-2 bg-transparent border rounded-xl focus:outline-none"
+                        placeholder="Xabaringizni yozing..."></textarea>
+                </div>
+
+                <div class="pt-2">
+                    <button type="submit"
+                        class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center gap-2">
+                        Jo’natish
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="w-full lg:w-1/2 p-6 flex flex-col ">
+            <h1 class="text-4xl sm:text-5xl font-semibold mb-15">Ux & Ui design</h1>
+            <p class="text-gray-300 text-base sm:text-xl leading-relaxed ">
+                In the current tech scenario, one can’t predict what device their user will use to interact with a
+                product.
+                This is why it’s always a good idea to build something that supports all devices.
+                However it is nearly impossible to design for every screen size with so many.
+            </p>
+        </div>
+    </section>
+      <script>
+        const menu = document.getElementById("menu");
+        const close = document.getElementById("close");
+        const modal = document.getElementById("modal");
+        menu.addEventListener('click', () => {
+            modal.style.display = "block";
+        })
+        close.addEventListener('click', () => {
+            modal.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>
