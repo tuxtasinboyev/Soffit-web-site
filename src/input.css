@@ -6,5 +6,5 @@
 
 .portfolio:hover .porfolioD {
   @apply -translate-y-20;
-    @apply opacity-100
+  @apply opacity-100
 }
